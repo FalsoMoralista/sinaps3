@@ -8,9 +8,11 @@ import (
 	"model"
 	"net/http"
 	"os"
+
 )
 
 func main() {
+
 	router := mux.NewRouter()
 	router.HandleFunc("/procedimentos-disponiveis", ProcedimentosDisponiveis)
 	fmt.Println("listening ...")
