@@ -1,0 +1,4 @@
+[metadata.heroku]
+  root-package = "github.com/falsomoralista/hackaton-sanar"
+  go-version = "1.11"
+  install = [ "./..." ]
