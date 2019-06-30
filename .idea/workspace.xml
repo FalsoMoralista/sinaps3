@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3d1bba9-d492-480a-a068-48f7ca079eab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/models.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/medico.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paciente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/medico.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/medico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/paciente.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/paciente.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/router/routes.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="90">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/medico.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+            <state relative-caret-position="8">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -90,7 +90,7 @@
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/www" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="urls">
@@ -116,12 +116,12 @@
         <option value="$PROJECT_DIR$/src/model/db.go" />
         <option value="$PROJECT_DIR$/src/model/models.go" />
         <option value="$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/paciente.html" />
-        <option value="$PROJECT_DIR$/src/router/routes.go" />
         <option value="$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/medico.html" />
+        <option value="$PROJECT_DIR$/src/router/routes.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="28" />
     <option name="y" value="150" />
     <option name="width" value="1330" />
@@ -150,13 +150,6 @@
               <item name="hackaton-sanar" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="startbootstrap-landing-page-gh-pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackaton-sanar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackaton-sanar" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="startbootstrap-landing-page-gh-pages" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,12 +270,12 @@
     <frame x="-1" y="0" width="1368" height="769" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29242423" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29242423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27543035" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27543035" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,13 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/routes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -427,8 +413,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/startbootstrap-landing-page-gh-pages/medico.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+        <state relative-caret-position="8">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/routes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
