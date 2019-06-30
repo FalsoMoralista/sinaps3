@@ -13,7 +13,7 @@ import (
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/procedimentos-disponiveis", ProcedimentosDisponiveis)
-	fmt.Println("listening...")
+	fmt.Println("listening ...")
 	log.Fatal(http.ListenAndServe(GetPort(), router))
 }
 
