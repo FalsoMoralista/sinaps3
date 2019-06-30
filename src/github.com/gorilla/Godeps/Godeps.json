@@ -1,0 +1,9 @@
+{
+	"ImportPath": "github.com/gorilla",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": []
+}
