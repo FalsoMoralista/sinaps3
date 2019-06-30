@@ -14,10 +14,13 @@ func main() {
 	router := mux.NewRouter()
 	root := http.FileServer(http.Dir("www/startbootstrap-landing-page-gh-pages/"))
 	css := http.FileServer(http.Dir("www/startbootstrap-landing-page-gh-pages/css"))
- 	router.Handle("/",root)
+
+	fonts:= http.FileServer(http.Dir("www/startbootstrap-landing-page-gh-pages/vendor/fontawesome-free/webfonts/fa-brands-400.woff2"))
+
+	router.Handle("/",root)
 	router.Handle("/index.html",root)
 	router.Handle("/css",css)
-
+	router.Handle("/fonts",fonts)
 	router.HandleFunc("/paciente.html", Paciente)
 	router.HandleFunc("/medico.html", Medico)
 	router.HandleFunc("/paciente", Paciente)
@@ -41,8 +44,8 @@ func main() {
 
 
 func simple_icons(w http.ResponseWriter, req *http.Request) {
-	w.Header().Set("Content-Type", "text/font")
-	http.ServeFile(w,req,"www/startbootstrap-landing-page-gh-pages/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0")
+	w.Header().Set("Content-Type", "text/plain")
+	http.ServeFile(w,req,"www/startbootstrap-landing-page-gh-pages/simple-line-icons/fonts/Simple-Line-Icons.woff2")
 }
 
 func jquery(w http.ResponseWriter, req *http.Request) {
