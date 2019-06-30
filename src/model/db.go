@@ -11,7 +11,8 @@ const(
 	pacientes = "/pacientes"
 	agendar_procedimentos = "/agendar-procedimentos"
 	procedimentos_agendados = "/agendamentos/procedimentos"
-)
+	unidades_saude = "/uds"
+	)
 
 func GetPacientes()([]Paciente, error){
 	response,err := http.Get(db+pacientes)
@@ -35,4 +36,12 @@ func GetConsultas()([]Consulta,error){
 	body,err := ioutil.ReadAll(response.Body)
 	err = json.Unmarshal(body,&procedimentos)
 	return procedimentos, err
+}
+
+func GetUds()([]Uds, error){
+	response,err := http.Get(db+unidades_saude)
+	uds := []Uds{}
+	body,err := ioutil.ReadAll(response.Body)
+	err = json.Unmarshal(body,&uds)
+	return uds, err
 }
