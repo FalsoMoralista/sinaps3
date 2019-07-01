@@ -1,5 +1,5 @@
 # Sinaps3
-> Sistema Nacional de Apoio de Serviços de Saúde e à Sociedade
+> Sistema Nacional de Apoio aos Serviços de Saúde e à Sociedade
 
 # Produto
 <p align="center"><img src="https://i.imgur.com/MMkkUJY.png"></p>
